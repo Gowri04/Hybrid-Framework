@@ -14,6 +14,8 @@ public class LoginPage
 		PageFactory.initElements(remoteDriver, this);	
 	}
 	
+	//By txtuser=By.xpath("//*[@id=\\\"txtUsername\\\"]");
+	
 	@FindBy(how=How.XPATH, using="//*[@id=\"txtUsername\"]")
 	WebElement txtUserName;
 	
